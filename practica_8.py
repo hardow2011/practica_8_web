@@ -16,7 +16,7 @@ estudiantes = client.service.getListaEstudiantes()
 for estudiante in estudiantes:
     print('Matrícula: ' + str(estudiante['matricula']) + ' Nombre: ' + estudiante['nombre'] + ' Carrera: ' + estudiante['carrera'])
 
-print("\nConsultar un estudiante con matrícula 20143220:")
+print("\nConsultar el estudiante con matrícula 20143220:")
 estudiante = client.service.getEstudiante(20143220)
 print('Matrícula: ' + str(estudiante['matricula']) + ' Nombre: ' + estudiante['nombre'] + ' Carrera: ' + estudiante['carrera'])
 
